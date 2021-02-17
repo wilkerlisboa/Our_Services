@@ -1,0 +1,13 @@
+General
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#Block{
+    width: 567px;
+    height: 626px;
+    position: absolute;
+    background: blueviolet;
+    margin: -9px 0px 0px 791px;
+}   
