@@ -3,28 +3,41 @@ General
     margin: 0;
     padding: 0;
 }
-
-
+/*First Title*/
 h1{
     position: absolute;
     font-size: xxx-large;
     font-style: normal;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
-    margin: 27px 0px 0px 113px;
+    margin: 27px 0px 0px 30px;
 }
 
-.text{
+/*Box of Online Markting*/
+#Online_Marketing{
+    margin: 187px 0px 0px 17px;
+    position: absolute;
+}
+
+/*Box Of Web Developer*/
+#Web_Developer{
     margin: 187px 0px 0px 401px;
     position: absolute;
 }
 
-#text{
-    margin: 187px 0px 0px 10px;
-    
+/*Box Of Website design*/
+#Website_Design{
+    margin: 391px 0px 0px 17px;
     position: absolute;
 }
 
+/*Box of SEO Optimization*/
+#SEO_Optimization{
+    margin: 391px 0px 0px 401px;
+    position: absolute;
+}
+
+/*Icons Of Side of the Text*/
 .icon{
     width: 50px;
     height: 2px;
@@ -36,16 +49,19 @@ h1{
     margin: -1px 0px 0px 15px;
 }
 
+/*Titles*/
 .title{
     position: absolute;
-    width: 127px;
+    width: 139px;
     font-size: inherit;
     font-style: normal;
     font-weight: normal;
     font-family: 'Roboto', sans-serif;
     margin: -10px 0px 0px 74px;
+    
 }
 
+/*Subtitles*/
 .subtitle{
     width: 304px;
     height: 49px;
@@ -54,8 +70,10 @@ h1{
     font-weight: 300;
     font-family: 'Roboto', sans-serif;
     margin: 12px 0px 0px 15px;
+    letter-spacing: 1px;
 }
 
+/*Square Above Of The Titles*/
 .rec{
     margin: -52px 0px 0px 28px;
     width: 17px;
@@ -63,7 +81,7 @@ h1{
     position: absolute;
     border-style: groove;
 }
-
+/*Block Below of Image man*/
 #Block{
     width: 537px;
     height: 626px;
@@ -72,6 +90,7 @@ h1{
     margin: -9px 0px 0px 821px;
 }
 
+/*Image man*/
 #img{
     width: 415px;
     height: 460px;
@@ -85,11 +104,12 @@ h1{
     border-radius: 6px;
 }
 
+/*Image Phone*/
 #img_02{
     width: 197px;
     height: 339px;
     position: absolute;
-    margin: 256px 0px 0px 1059px;
+    margin: 250px 0px 0px 1059px;
     background: url(./img/Iphone12.png);
     background-position: center center;
     background-repeat: no-repeat;
