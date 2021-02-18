@@ -4,10 +4,94 @@ General
     padding: 0;
 }
 
+
+h1{
+    position: absolute;
+    font-size: xxx-large;
+    font-style: normal;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin: 27px 0px 0px 113px;
+}
+
+.text{
+    margin: 187px 0px 0px 401px;
+    position: absolute;
+}
+
+#text{
+    margin: 187px 0px 0px 10px;
+    
+    position: absolute;
+}
+
+.icon{
+    width: 50px;
+    height: 2px;
+    position: absolute;
+    background: url(./icons/dash.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: -1px 0px 0px 15px;
+}
+
+.title{
+    position: absolute;
+    width: 127px;
+    font-size: inherit;
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    margin: -10px 0px 0px 74px;
+}
+
+.subtitle{
+    width: 304px;
+    height: 49px;
+    position: absolute;
+    font-style: normal;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    margin: 12px 0px 0px 15px;
+}
+
+.rec{
+    margin: -52px 0px 0px 28px;
+    width: 17px;
+    height: 27px;
+    position: absolute;
+    border-style: groove;
+}
+
 #Block{
-    width: 567px;
+    width: 537px;
     height: 626px;
     position: absolute;
     background: blueviolet;
-    margin: -9px 0px 0px 791px;
-}   
+    margin: -9px 0px 0px 821px;
+}
+
+#img{
+    width: 415px;
+    height: 460px;
+    position: absolute;
+    margin: 88px 0px 0px 739px;
+    background: url(https://images.unsplash.com/photo-1613324996029-f6190a17838f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 28px 31px 95px -18px #000000d1;
+    border-radius: 6px;
+}
+
+#img_02{
+    width: 197px;
+    height: 339px;
+    position: absolute;
+    margin: 256px 0px 0px 1059px;
+    background: url(./img/Iphone12.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
