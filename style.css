@@ -1,4 +1,4 @@
-General
+/*General*/
 *{
     margin: 0;
     padding: 0;
@@ -82,9 +82,9 @@ h1{
     border-style: groove;
 }
 /*Block Below of Image man*/
-#Block{
-    width: 537px;
-    height: 626px;
+#Block {
+    width: 545px;
+    height: 634px;
     position: absolute;
     background: blueviolet;
     margin: -9px 0px 0px 821px;
