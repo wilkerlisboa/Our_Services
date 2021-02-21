@@ -1,0 +1,102 @@
+/*General*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 768px), only screen and (max-device-width: 768px){
+    
+    h1{
+        position: absolute;
+        font-size: 477%;
+        font-style: normal;
+        font-weight: bold;
+        font-family: 'Roboto', sans-serif;
+        margin: 701px 0px 0px 119px;
+    }
+
+    .title {
+        position: absolute;
+        width: 294px;
+        font-size: 229%;
+        font-style: normal;
+        font-weight: normal;
+        font-family: 'Roboto', sans-serif;
+        margin: -10px 0px 0px 74px;
+    }
+
+    .subtitle {
+        width: 540px;
+        position: absolute;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 226%;
+        font-family: 'Roboto', sans-serif;
+        margin: 38px 0px 0px 26px;
+        letter-spacing: 1px;
+    }
+
+    #SEO_Optimization {
+        margin: 1915px 0px 0px 81px;
+        position: absolute;
+    }
+
+    #Website_Design {
+        margin: 1586px 0px 0px 81px;
+        position: absolute;
+    }
+
+    #Web_Developer {
+        margin: 1222px 0px 0px 81px;
+        position: absolute;
+    }
+
+    #Online_Marketing {
+        margin: 890px 0px 0px 81px;
+        position: absolute;
+    }
+
+    #img {
+        width: 68%;
+        height: 31%;
+        position: absolute;
+        margin: 84px 0px 0px 78px;
+        background: url(https://images.unsplash.com/photo-1613324996029-f6190a17838f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: 28px 31px 95px -18px #000000d1;
+        border-radius: 6px;
+    }
+
+    #img_02 {
+        width: 24%;
+        height: 22%;
+        position: absolute;
+        margin: 250px 0px 0px 484px;
+        background: url(../img/Iphone12.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #Block {
+        width: 79%;
+        height: 45%;
+        position: absolute;
+        background: blueviolet;
+        border-bottom-left-radius: 6%;
+        margin: -9px 0px 0px 152px;
+    }
+
+    .icon {
+        width: 56px;
+        height: 7px;
+        position: absolute;
+        background: url(../icons/dash.svg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 10px 0px 0px 15px;
+    }
+}
