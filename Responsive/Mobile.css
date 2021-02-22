@@ -8,8 +8,9 @@ body{
     overflow-x: hidden;
 }
 
+/* Tag Responsive*/
 @media only screen and (max-width: 768px), only screen and (max-device-width: 768px){
-    
+    /*First Title*/
     h1{
         position: absolute;
         font-size: 237%;
@@ -19,6 +20,43 @@ body{
         margin: 344px 0px 0px 76px;
     }
 
+    /*Box of Online Marketing*/
+    #Online_Marketing {
+        margin: 487px 0px 0px 24px;
+        position: absolute;
+    }
+
+    /*Box Of Web Developer*/
+    #Web_Developer {
+        margin: 940px 0px 0px 24px;
+        position: absolute;
+    }
+
+    /*Box Of Website design*/
+    #Website_Design {
+        margin: 712px 0px 0px 24px;
+        position: absolute;
+    }
+
+    /*Box of SEO Optimization*/
+    #SEO_Optimization {
+        margin: 1178px 0px 0px 24px;
+        position: absolute;
+    }
+
+    /*Icons Of Side of the Text*/
+    .icon {
+        width: 56px;
+        height: 7px;
+        position: absolute;
+        background: url(../icons/dash.svg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 2px 0px 0px 15px;
+    }
+
+    /*Titles*/
     .title {
         position: absolute;
         width: 294px;
@@ -29,6 +67,7 @@ body{
         margin: -10px 0px 0px 74px;
     }
 
+    /*Subtitles*/
     .subtitle {
         width: 243px;
         position: absolute;
@@ -40,27 +79,17 @@ body{
         letter-spacing: 1px;
     }
 
-    #SEO_Optimization {
-        margin: 1178px 0px 0px 24px;
+    /*Block Below of Image man*/
+    #Block {
+        width: 90%;
+        height: 45%;
         position: absolute;
+        background: blueviolet;
+        border-bottom-left-radius: 6%;
+        margin: -9px 0px 0px 130px;
     }
 
-    #Website_Design {
-        margin: 712px 0px 0px 24px;
-        position: absolute;
-    }
-
-    #Web_Developer {
-        margin: 940px 0px 0px 24px;
-        position: absolute;
-    }
-    
-
-    #Online_Marketing {
-        margin: 487px 0px 0px 24px;
-        position: absolute;
-    }
-
+    /*Image man*/
     #img {
         width: 64%;
         height: 31%;
@@ -74,6 +103,7 @@ body{
         border-radius: 6px;
     }
 
+    /*Image Phone*/
     #img_02 {
         width: 24%;
         height: 22%;
@@ -83,25 +113,5 @@ body{
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
-    }
-
-    #Block {
-        width: 90%;
-        height: 45%;
-        position: absolute;
-        background: blueviolet;
-        border-bottom-left-radius: 6%;
-        margin: -9px 0px 0px 130px;
-    }
-
-    .icon {
-        width: 56px;
-        height: 7px;
-        position: absolute;
-        background: url(../icons/dash.svg);
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        margin: 2px 0px 0px 15px;
-    }
+    } 
 }
