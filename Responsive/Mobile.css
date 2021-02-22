@@ -4,21 +4,25 @@
     padding: 0;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 @media only screen and (max-width: 768px), only screen and (max-device-width: 768px){
     
     h1{
         position: absolute;
-        font-size: 477%;
+        font-size: 237%;
         font-style: normal;
         font-weight: bold;
         font-family: 'Roboto', sans-serif;
-        margin: 701px 0px 0px 119px;
+        margin: 344px 0px 0px 76px;
     }
 
     .title {
         position: absolute;
         width: 294px;
-        font-size: 229%;
+        font-size: 143%;
         font-style: normal;
         font-weight: normal;
         font-family: 'Roboto', sans-serif;
@@ -26,41 +30,42 @@
     }
 
     .subtitle {
-        width: 540px;
+        width: 243px;
         position: absolute;
         font-style: normal;
         font-weight: 300;
-        font-size: 226%;
+        font-size: 101%;
         font-family: 'Roboto', sans-serif;
         margin: 38px 0px 0px 26px;
         letter-spacing: 1px;
     }
 
     #SEO_Optimization {
-        margin: 1915px 0px 0px 81px;
+        margin: 1178px 0px 0px 24px;
         position: absolute;
     }
 
     #Website_Design {
-        margin: 1586px 0px 0px 81px;
+        margin: 712px 0px 0px 24px;
         position: absolute;
     }
 
     #Web_Developer {
-        margin: 1222px 0px 0px 81px;
+        margin: 940px 0px 0px 24px;
         position: absolute;
     }
+    
 
     #Online_Marketing {
-        margin: 890px 0px 0px 81px;
+        margin: 487px 0px 0px 24px;
         position: absolute;
     }
 
     #img {
-        width: 68%;
+        width: 64%;
         height: 31%;
         position: absolute;
-        margin: 84px 0px 0px 78px;
+        margin: 35px 0px 0px 78px;
         background: url(https://images.unsplash.com/photo-1613324996029-f6190a17838f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
         background-position: center center;
         background-repeat: no-repeat;
@@ -73,7 +78,7 @@
         width: 24%;
         height: 22%;
         position: absolute;
-        margin: 250px 0px 0px 484px;
+        margin: 111px 0px 0px 247px;
         background: url(../img/Iphone12.png);
         background-position: center center;
         background-repeat: no-repeat;
@@ -81,12 +86,12 @@
     }
 
     #Block {
-        width: 79%;
+        width: 90%;
         height: 45%;
         position: absolute;
         background: blueviolet;
         border-bottom-left-radius: 6%;
-        margin: -9px 0px 0px 152px;
+        margin: -9px 0px 0px 130px;
     }
 
     .icon {
@@ -97,6 +102,6 @@
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
-        margin: 10px 0px 0px 15px;
+        margin: 2px 0px 0px 15px;
     }
 }
